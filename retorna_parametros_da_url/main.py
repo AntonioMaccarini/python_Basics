@@ -1,0 +1,19 @@
+import manipulacao_de_url
+
+url = "https://www.google.com/search?q=nitro+i5&ei=mv8PYrWlL5i84-EP_9CVuAs&ved=0ahUKEwi12t3viYr2AhUY3jgGHX9oBbcQ4dUDCA4&uact=5&oq=nitro+i5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoHCAAQRxCwAzoHCAAQsAMQQzoKCAAQ5AIQsAMYADoMCC4QyAMQsAMQQxgBOhEILhCABBCxAxCDARDHARDRAzoOCC4QgAQQsQMQxwEQ0QM6DgguEIAEELEDEIMBENQCOgsIABCABBCxAxCDAToICAAQgAQQsQM6CAguEIAEELEDOgcIABCxAxBDOg0ILhDHARDRAxDUAhBDOgQIABBDOg0ILhCxAxDHARCjAhBDOgoIABCxAxCDARBDOg4ILhCxAxCDARDHARCvAToLCC4QgAQQxwEQrwFKBAhBGABKBAhGGAFQyCFYgS5gkC9oA3ABeACAAYoBiAHdB5IBAzAuOJgBAKABAcgBE8ABAdoBBggAEAEYCdoBBggBEAEYCA&sclient=gws-wiz-serp"
+
+classe_url = manipulacao_de_url.manipulacao_de_url(url)
+indice_interrogacao = classe_url.indice_interrogacao(url)
+parametros = classe_url.encontrar_parametros(indice_interrogacao, url)
+print(parametros)
+
+
+
+
+
+
+
+
+
+
+
