@@ -9,5 +9,5 @@ digite python3 forca.py no terminal e execute o script.
 
 2)
 
-Dada uma url o algoritmo estruturado em uma classe, retorna os parametros da uma busca do google por exemplo
+Dada uma url o algoritmo estruturado em uma classe, retorna os parametros de uma busca do google por exemplo
 
